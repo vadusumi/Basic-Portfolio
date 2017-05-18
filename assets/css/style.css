@@ -125,14 +125,11 @@ a:visited {
 
 }
 
+
 #abouter {
 
-	color: #4aaaa5;
-	position: absolute;
-	top: 5%;
-	left: -98px;
-	margin-left: 134px;
-	padding-left: 22px;
+	color: #4aaaa5;	
+	padding-left: 58px;
 	padding-right: 392px;
 	padding-bottom: 24px;
 	border-bottom-style: solid;
@@ -145,36 +142,21 @@ a:visited {
 
 #photo {
 
-	position: absolute;
 	display: block;
 	float: left;
 	padding: 20px;
 	word-wrap: break-word;
 	top: 25%;
 	left: 5%;
-	z-index: 1;
-
+	
 }
 
 
 #desc1 {
 
-	position: absolute;
 	word-wrap: break-word;
 	top: 25%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	z-index: 1;
-
-}
-
-
-#desc2 {
-
-	position: absolute;
-	word-wrap: break-word;
-	top: 53%;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	z-index: 1;
 
 }
 
