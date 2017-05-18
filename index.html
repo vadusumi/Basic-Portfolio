@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html>
-
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<html width="960px">
+<!-- 
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <head>
+
+<div class="header">
 	<title>Varun Adusumilli's Portfolio Site - Home</title>
-	<h1>Varun Adusumilli</h1>
-	<a href="">About</a>
-	<a href="">Portfolio</a>
-	<a href="">Contact</a>
+	<h1 id="namer">Varun Adusumilli</h1>
+	<a href="" id="aboutlink">About</a>
+	<a href="" id="portlink">Portfolio</a>
+	<a href="" id="contactlink">Contact</a>
+</div>
+
 </head>
 <body>
 	
-	<div>		
-		<h1>About Me</h1>
+	<div class="aboutdiv">		
+		<h1 id="abouter">About Me</h1>
 		
-		<img src="assets/images/P4.jpg">
+		<img src="assets/images/P4.jpg" height= "250px" width= "200px" id="photo">
 		
-		<p>
-			Lorem ipsum dolor sit amet
+		<p id="desc1">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in est ut nunc gravida cursus. Fusce vitae vehicula elit. Donec cursus ligula elit, ut fringilla metus ornare nec. Fusce at vestibulum lorem. Donec luctus rutrum lacus. Mauris sed iaculis augue. Mauris ex risus, ornare ac orci ut, convallis dapibus augue. Ut sagittis tristique dolor eu venenatis. Mauris pellentesque sem consequat est rutrum, quis egestas eros accumsan. In convallis lectus sed turpis pellentesque, at vehicula augue lacinia. Etiam hendrerit, magna a venenatis vulputate, purus nisl consequat ex, mollis suscipit neque ante in purus. Donec ut varius nulla, nec dictum lectus. Pellentesque a lacus nisi. Sed finibus orci ac leo placerat aliquam.
+		</p>
+
+		<p id="desc2">
+			Sed aliquet tristique dapibus. Vivamus sagittis mi eu lobortis feugiat. Fusce pulvinar neque massa, in pretium metus venenatis id. Aenean sed accumsan augue, ac maximus urna. Sed lacinia leo fringilla ornare gravida. Nam a nisi id neque varius lobortis. Phasellus consequat nisi non mollis semper. Phasellus dapibus venenatis nisi quis iaculis. Nam eu ex ut urna fringilla sagittis. Suspendisse aliquam, ipsum sit amet consectetur venenatis, arcu ex fermentum neque, vel luctus erat tellus non dolor.
 		</p>
 	</div>
 
-	<div>
-		<h2>Connect with Me</h2>
+	<div class="iconlinks">
+		<h2 id="icontext">Connect with Me</h2>
 	
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
+		<div class="icons">
+		<a href="https://github.com/vadusumi"><img src="assets/images/github.png" height="70px" width="70px"></a>
+		<a href="https://www.linkedin.com/in/varun-adusumilli-2b825a13b/"><img src="assets/images/linkedin.png" height="70px" width="70px"></a>
+		<a href="http://stackoverflow.com/users/8010085/varun"><img src="assets/images/stackoverflow.png" height="70px" width="70px"></a>
+		</div>
 	</div>
 
 </body>
 
 <footer>
-	<p>Copyright 2017 Varun Adusumilli</p>
+	<div class="feet">
+		<p id="boilerplate">Copyright 2017 Varun Adusumilli</p>
+	</div>
 </footer>
 </html>

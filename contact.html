@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html>
-
-<link rel="stylesheet" type="text/css" href="assets/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/style.css">
+<!-- 
+<link rel="stylesheet" type="text/css" href="assets/reset.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <head>
-	<title>Varun Adusumilli's Portfolio Site - Contact</title>
-	<h1>Varun Adusumilli</h1>
-	<a href="">About</a>
-	<a href="">Portfolio</a>
-	<a href="">Contact</a>
+
+	<div class="header">
+		<title>Varun Adusumilli's Portfolio Site - Portfolio</title>
+		<h1 id="namer">Varun Adusumilli</h1>
+		<a href="" id="aboutlink">About</a>
+		<a href="" id="portlink">Portfolio</a>
+		<a href="" id="contactlink">Contact</a>
+	</div>
+
 </head>
 <body>
 
-	<div>
-		<h2>Connect with Me</h2>
-	
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
+	<div class="forms">
+		<h1 id="abouter">Contact</h1>
+		<form><br>
+		Name  <br><input type="text" name="name" size="68"><br><br>
+		Email <br><input type="text" name="email" size="68"><br><br>
+		Message <br><textarea rows="10" cols="69"></textarea><br><br>
+		<input type="submit" value="Submit" id="submitbtn">
+		</form>
 	</div>
 
+	<div class="iconlinks">
+		<h2 id="icontext">Connect with Me</h2>
+	
+		<div class="icons">
+		<a href="https://github.com/vadusumi"><img src="assets/images/github.png" height="70px" width="70px"></a>
+		<a href="https://www.linkedin.com/in/varun-adusumilli-2b825a13b/"><img src="assets/images/linkedin.png" height="70px" width="70px"></a>
+		<a href="http://stackoverflow.com/users/8010085/varun"><img src="assets/images/stackoverflow.png" height="70px" width="70px"></a>
+		</div>
+	</div>
 </body>
 
 <footer>
-	<p>Copyright 2017 Varun Adusumilli</p>
+	<div class="feet">
+		<p id="boilerplate">Copyright 2017 Varun Adusumilli</p>
+	</div>
 </footer>
 </html>

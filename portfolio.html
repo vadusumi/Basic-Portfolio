@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="assets/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <head>
-	<title>Varun Adusumilli's Portfolio Site - Portfolio</title>
-	<h1>Varun Adusumilli</h1>
-	<a href="">About</a>
-	<a href="">Portfolio</a>
-	<a href="">Contact</a>
+
+	<div class="header">
+		<title>Varun Adusumilli's Portfolio Site - Portfolio</title>
+		<h1 id="namer">Varun Adusumilli</h1>
+		<a href="" id="aboutlink">About</a>
+		<a href="" id="portlink">Portfolio</a>
+		<a href="" id="contactlink">Contact</a>
+	</div>
+
 </head>
 <body>
-	<div>
-		<h1>Contact</h1>
-		
 
+	<div class="portdiv">
+		<h1 id="abouter">Portfolio</h1>
+		<table>
+			<tr>
+				<td><a href="https://scratch.mit.edu/projects/160811588/"><img src="assets/images/scratch.jpg"></a><br>Scratch Game</td>
+				<td><a href="https://distinctimagemarketing.com/people/"><img src="assets/images/di_logo.png" height="200px" width="200px"></a><br>Distinct Image</td>
+			</tr>
+			<tr>
+				<td><a href="assets/Module-8/fanpage.html"><img src="assets/images/scandroid3.jpg" height="200px" width="200px"></a><br>Scandroid Fan Page</td>
+			</tr>
+		</table>
 	</div>
 
-	<div>
-		<h2>Connect with Me</h2>
+	<div class="iconlinks">
+		<h2 id="icontext">Connect with Me</h2>
 	
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
+		<div class="icons">
+		<a href="https://github.com/vadusumi"><img src="assets/images/github.png" height="70px" width="70px"></a>
+		<a href="https://www.linkedin.com/in/varun-adusumilli-2b825a13b/"><img src="assets/images/linkedin.png" height="70px" width="70px"></a>
+		<a href="http://stackoverflow.com/users/8010085/varun"><img src="assets/images/stackoverflow.png" height="70px" width="70px"></a>
+		</div>
 	</div>
-
 </body>
 
 <footer>
-	<p>Copyright 2017 Varun Adusumilli</p>
+	<div class="feet">
+		<p id="boilerplate">Copyright 2017 Varun Adusumilli</p>
+	</div>
 </footer>
 </html>
