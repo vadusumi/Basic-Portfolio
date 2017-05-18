@@ -1,4 +1,14 @@
 
-Text won't move around within div
+MAJOR ISSUE: 	-Text won't wrap around the image in index.html. I've used floats and tried word-wrap, but no dice.
+		I'm not entirely sure what the issue is, but I suspect it's something in the #photo or .aboutdiv styling.
+		Other students' approach were much less complicated, which is a lesson in itself.
 
-Table spacing
+
+MINOR ISSUES:  	-Can't get the table cells to put some space between each other. Padding and margin hasn't worked.
+		I suspect it's something that needs to be done in the table or tr styling.
+
+		-I initially did all the styling BEFORE applying the reset.css parameters, which dramatically altered the appearance.
+		With a few more hours I could have restyled everything properly, but I discovered the issue too late.
+		A lesson learned the hard way.
+
+		
